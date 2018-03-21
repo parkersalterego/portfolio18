@@ -1,0 +1,15 @@
+{
+  "name": "portfolio18",
+  "version": "1.0.0",
+  "description": "portfolio site for Adam Weaver (https://www.github.com/parkersalterego) ",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Weaver (https://www.github.com/parkersalteregeo)",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
