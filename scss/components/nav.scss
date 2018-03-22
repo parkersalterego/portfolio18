@@ -1,0 +1,23 @@
+.nav {
+   height: 5rem;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+
+    &__logo {
+        float: left;
+
+    }
+
+    &__ul {
+        float: right;
+        margin-top: 1.6rem;
+
+        &--li {
+            display: inline;
+            margin-right: 2rem;
+            
+        }
+    }
+}

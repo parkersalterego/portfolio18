@@ -1,0 +1,26 @@
+// fonts
+@font-face {
+    font-family: pinkfloyd;
+    src: url('../fonts/pinkfloyd.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: $primary-font-color;
+    padding: 3rem;
+}
+
+.nav {
+    color: $nav-font-color;
+}
+
+.header__logo--text {
+    font-family: 'pinkfloyd', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
