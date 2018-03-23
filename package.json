@@ -4,8 +4,7 @@
   "description": "portfolio site for Adam Weaver (https://www.github.com/parkersalterego) ",
   "main": "app.js",
   "scripts": {
-    "compile:sass": "node-sass scss/main.scss css/styles.css -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass ./scss/main.scss ./css/styles.css -w"
   },
   "author": "Adam Weaver (https://www.github.com/parkersalteregeo)",
   "license": "ISC",
