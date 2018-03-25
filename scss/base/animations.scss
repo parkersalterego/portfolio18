@@ -20,6 +20,21 @@
     opacity: 1;
 }
 
+.nav-icon--one:hover,
+.nav-icon--two:hover {
+    transform: scale(1.2);
+    color: rgba(255, 255, 255, 1);
+}
+
+.panel#about {
+    transition: all .3s ease-in-out;
+}
+
+.panel#about.panelOpen {
+    left: 0;
+    
+}
+
 
 
 
