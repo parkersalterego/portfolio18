@@ -4,7 +4,9 @@
     src: url('../fonts/pinkfloyd.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Coda');
 
 body {
     font-family: 'Fjalla One', sans-serif;
@@ -21,6 +23,45 @@ body {
 
 .header__logo--text {
     font-family: 'pinkfloyd', cursive;
+    text-align: center; 
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, .7);
+}
+
+[class^="menu-text"] {
+    font-family: 'coda', display;
+    font-size: 5rem;
     text-align: center;
+    letter-spacing: .25rem; 
+    justify-self: center;
+    align-self: center;
+    color: #fff;
+    text-shadow:
+		-1px 1px 0 #333,
+		-2px 2px 0 #333,
+		-3px 3px 0 #333,
+		-4px 4px 0 #333,
+		-4px 4px 0 #333,
+		0px 1px 1px rgba(0,0,0,.4),
+		0px 2px 2px rgba(0,0,0,.3),
+		-1px 3px 3px rgba(0,0,0,.2),
+		-1px 5px 5px rgba(0,0,0,.1),
+		-2px 8px 8px rgba(0,0,0,.1),
+		-2px 13px 13px rgba(0,0,0,.1);
+    
+}
+
+.fa-arrow-left {
+    margin-left: 3rem;
     font-size: 3rem;
+    color: #fff;
+    opacity: 0;
+}
+
+.fa-arrow-right {
+    margin-right: 3rem;
+    font-size: 3rem;
+    color: #fff;
+    opacity: 0;
 }

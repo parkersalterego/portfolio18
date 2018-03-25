@@ -1,0 +1,33 @@
+.menu {
+    height: calc(100vh - 45rem);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);   
+
+    &__item--one {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+
+    &__item--two {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+
+    &__item--three {
+        grid-column: 1/13;
+        grid-row: 3/4;
+    }
+} 
+
+[class^="menu__item"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+   
