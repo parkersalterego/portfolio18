@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,26 @@
     <title>Alter Ego Designs</title>
 </head>
 <body>
+    <!-- start nav -->
     <nav class="nav">
-        <div class="nav__ul">
-            <div class="nav__ul--li">Home</div>
-            <div class="nav__ul--li">About</div>
-            <div class="nav__ul--li">Contact</div>
+        <div class="nav-icon--one">
+            <a href="https://www.github.com/parkersalterego" target="_blank">
+                <i class="fa fa-github nav-icon--one" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="nav-icon--two">
+            <a href="https://www.linkedin.com/in/adam-weaver-72b87713a/" target="_blank">
+                <i class="fa fa-linkedin-square nav-icon--two" aria-hidden="true"></i>
+            </a>
         </div>
     </nav>
+    <!-- end nav -->
+    <!-- start primary content wrapper -->
     <div class="content">
+        <!-- start inner content wrapper -->
         <div class="content-inside">
+            <!-- start header -->
             <header>
                 <div class="header">
                     <div class="header__logo">
@@ -24,29 +36,40 @@
                     </div>
                 </div>
             </header>
+            <!-- end header -->
+            <!-- start menu -->
             <section class="menu">
                 <div class="menu__item--one">
-                    <i class="fas fa-arrow-right arrows-one"></i>
-                   <h2 class="menu-text-one">About Me</h2>
-                   <i class="fas fa-arrow-left arrows-one"></i>     
+                    <i class="fa fa-arrow-right arrows-one" aria-hidden="true"></i>
+                    <h2 class="menu-text-one" id="aboutBtn">About Me</h2>
+                    <i class="fa fa-arrow-left arrows-one" aria-hidden="true"></i>              
                 </div>
                 <div class="menu__item--two">
-                    <i class="fas fa-arrow-right arrows-two"></i>
-                   <h2 class="menu-text-two">About Me</h2>
-                   <i class="fas fa-arrow-left arrows-two"></i>     
+                    <i class="fa fa-arrow-right arrows-two" aria-hidden="true"></i> 
+                    <h2 class="menu-text-two">Work</h2>
+                    <i class="fa fa-arrow-left arrows-two" aria-hidden="true"></i>               
                 </div>
                 <div class="menu__item--three">
-                    <i class="fas fa-arrow-right arrows-three"></i>
-                   <h2 class="menu-text-three">About Me</h2>
-                   <i class="fas fa-arrow-left arrows-three"></i> 
+                    <i class="fa fa-arrow-right arrows-three" aria-hidden="true"></i>  
+                    <h2 class="menu-text-three">Contact</h2>
+                    <i class="fa fa-arrow-left arrows-three" aria-hidden="true"></i>
                 </div>
             </section>
+            <!-- end menu -->
+            <!-- start about panel -->
+            <section class="panel" id="about">
+                <div class="back-btn-container">
+                    <i class="fa fa-arrow-left panel-back-icon" id="aboutPanelBackBtn" aria-hidden="true"></i>
+                </div>
+            </section>
+            <!-- end about panel -->
         </div>
+        <!-- end inner content wrapper -->
     </div>
+    <!-- end primary content wrapper -->
     <footer class="footer">
 
     </footer>
 </body>
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </html>
