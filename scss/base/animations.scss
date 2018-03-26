@@ -9,15 +9,23 @@
 }
 
 .menu__item--one:hover > .arrows-one {
-    opacity: 1;
+    transform: rotate(360deg);
 }
 
-.menu__item--two:hover > .arrows-two {
-    opacity: 1;
-}
-
+.menu__item--one:hover > .arrows-one,
+.menu__item--two:hover > .arrows-two,
 .menu__item--three:hover > .arrows-three {
-    opacity: 1;
+    animation: rotate-arrows linear infinite 2.5s;
+}
+
+@keyframes rotate-arrows {
+    0% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    } 100% {
+        transform: rotateX(360deg);
+        opacity: 1;
+    }
 }
 
 .nav-icon--one:hover,

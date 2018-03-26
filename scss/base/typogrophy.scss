@@ -34,11 +34,11 @@ body {
     align-self: center;
     color: #fff;
     text-shadow:
-		-1px 1px 0 #333,
-		-2px 2px 0 #333,
+		-1px 1px 0 #555,
+		-2px 2px 0 #444,
 		-3px 3px 0 #333,
-		-4px 4px 0 #333,
-		-4px 4px 0 #333,
+		-4px 4px 0 #222,
+		-4px 4px 0 #111,
 		0px 1px 1px rgba(0,0,0,.4),
 		0px 2px 2px rgba(0,0,0,.3),
 		-1px 3px 3px rgba(0,0,0,.2),
@@ -53,6 +53,7 @@ body {
     font-size: 3rem;
     color: #fff;
     opacity: 0;
+    
 }
 
 .fa-arrow-right {
