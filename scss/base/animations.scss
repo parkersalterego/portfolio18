@@ -1,0 +1,25 @@
+[class^="menu-text"] {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        transform: skew(10deg, 5deg);
+        cursor: pointer;
+        
+    }
+}
+
+.menu__item--one:hover > .arrows-one {
+    opacity: 1;
+}
+
+.menu__item--two:hover > .arrows-two {
+    opacity: 1;
+}
+
+.menu__item--three:hover > .arrows-three {
+    opacity: 1;
+}
+
+
+
+
