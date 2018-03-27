@@ -34,14 +34,28 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.panel#about {
+.panel {
     transition: all .3s ease-in-out;
 }
 
-.panel#about.panelOpen {
+.panel.panel-open {
     left: 0;
     
 }
+
+.header__logo--text.neon {
+    animation: header-logo-neon 2s ease-in-out infinite alternate 1s;
+
+}
+
+@-webkit-keyframes header-logo-neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+    }
+  }
 
 
 
