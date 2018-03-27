@@ -21,8 +21,8 @@ body {
     font-family: 'pinkfloyd', cursive;
     text-align: center; 
     font-size: 5rem;
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, .7);
+    color: #37dddd;
+    text-shadow: 2px 2px 20px rgba(55, 176, 221, .8);
 }
 
 [class^="menu-text"] {
@@ -48,19 +48,21 @@ body {
     
 }
 
+.menu-arrow-left,
+.menu-arrow-right {
+    opacity: 0;
+}
+
 .fa-arrow-left {
     margin-left: 3rem;
     font-size: 3rem;
-    color: #fff;
-    opacity: 0;
-    
+    color: #fff; 
 }
 
 .fa-arrow-right {
     margin-right: 3rem;
     font-size: 3rem;
     color: #fff;
-    opacity: 0;
 }
 
 .nav-icon--one {
@@ -77,15 +79,6 @@ body {
     color: rgba(255, 255, 255, .7);
     font-size: 3rem;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
-}
-
-.panel-back-icon {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    color:rgba(255, 255, 255, .7);
-    font-size: 3rem;
     align-self: center;
     justify-self: center;
 }
